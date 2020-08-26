@@ -1,0 +1,34 @@
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Калькулятор</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div>
+    <p class="logo">Калькулятор</p>
+    <div class="blocking">
+      <p>Без заслонения</p><input type="radio" name="choice" class="damper" checked>
+    </div>
+    <div class="blocking">
+      <p>С заслонением</p><input type="radio" name="choice" class="low">
+    </div>
+  </div>
+  <div class="data_lable">
+    <p>Высота камеры</p>
+    <p>Длина помещения</p>
+    <p>Ширина помещения</p>
+    <p class="angle">Угол обзора</p>
+  </div>
+  <div class="data_enter">
+    <input type="text" class="height" value="Введите число">
+    <input type="text" class="length" value="Введите число">
+    <input type="text" class="width" value="Введите число">
+    <input type="text" class="angle" value="Введите число">
+  </div>
+  <div class="button">Рассчитать</div>
+  <p class="result"></p>
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

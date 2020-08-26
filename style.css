@@ -1,0 +1,71 @@
+@font-face {
+  src: url(https://code.s3.yandex.net/web-code/fonts/SuisseIntl-Book.woff);
+  font-family: 'Suisse';
+  font-weight: normal;
+}
+
+html {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background-color: #555962;
+  color: white;
+  min-height: 100%;
+  margin: 0 auto;
+  font-family: 'Suisse';
+  box-sizing: border-box;
+  padding: 36px;
+  text-align: center;
+}
+
+p {
+  margin-right: 20px;
+  margin-top: 17px;
+}
+
+
+input[type$="text"] {
+  font-family: 'Suisse';
+  display: block;
+  margin-top: 16px;
+  color: silver;
+}
+
+input[type$="radio"] {
+  display: inline-block;
+}
+
+.button {
+  width:140px;
+  height: 40px;
+  padding-top: 10px;
+  box-sizing: border-box;
+  border: 1px solid white;
+  margin: auto;
+  font-size: 14px;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.button:hover {
+  opacity: 0.5;
+}
+
+.logo {
+  font-size: 40;
+  font-weight: bold;
+}
+
+.data_enter {
+  display: inline-block;
+}
+
+.data_lable {
+  display: inline-block;
+}
+
+.blocking {
+  display: inline-block;
+}
